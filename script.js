@@ -112,7 +112,7 @@ $(document).ready(function() {
 
     $.ajax({
       url: requestUrl + '/?' + $.param({
-        id: taskId
+        taskId: id
       }),
       method: 'DELETE',
       success: function() {
