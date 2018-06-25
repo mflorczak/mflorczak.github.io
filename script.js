@@ -1,6 +1,6 @@
 $(document).ready(function() {
-  const apiRoot = 'https://git.heroku.com/polar-ridge-73119.git/v1/task/';
-  const trelloApiRoot = 'https://git.heroku.com/polar-ridge-73119.git/v1/trello/';
+  const apiRoot = 'https://polar-ridge-73119.herokuapp.com/v1/task/';
+  const trelloApiRoot = 'https://polar-ridge-73119.herokuapp.com/v1/trello/';
   const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   const $tasksContainer = $('[data-tasks-container]');
 
